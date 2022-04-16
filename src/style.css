@@ -1,0 +1,97 @@
+.App {
+    width: 1000px;
+    margin: 0 auto;
+}
+.todoListText {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: #3f3f3f;
+    padding: 10px 0px;
+    width: 450px;
+    height: 30px;
+    border-bottom: 1px solid #d2d1d1;
+}
+.header {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+input {
+    font-size: 19px;
+    width: 300px;
+    padding: 10px ;
+    border: 1px solid #d2d1d1;
+    border-radius: 10px ;
+
+}
+button {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(131, 71, 220, 0.84);
+
+    width: auto;
+    padding: 10px 40px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #8347dc;
+}
+.section {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 1px solid #d2d1d1;
+    align-items: center;
+}
+.checkMark {
+    color: #8347dc;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.checkMark:hover{
+    font-size: 25px;
+    background-color: transparent;
+}
+.text {
+    flex: 1;
+    font-size: 19px;
+    padding: 0px 0px;
+    border-bottom: 2px solid #d2d1d1;
+
+}
+.deleteTodo {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 5px 10px;
+}
+.deleteTodo:hover{
+    font-size: 25px;
+}
+.hiding{
+   color: #adadad;
+}
+.sectionSex {
+    background-color: rgba(130, 76, 213, 0.07);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 1px solid #d2d1d1;
+    align-items: center;
+    border-radius: 10px ;
+}
+
+
